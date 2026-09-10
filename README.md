@@ -35,7 +35,7 @@ Agent-specific instructions:
 4. Open the project in Cursor, Claude Code, Codex, or another coding agent.
 5. Tell the agent:
 
-> We are starting this project from scratch. Read the repository instructions and begin the BUILD_FROM_ZERO process.
+> We are starting this project from scratch. Read all repository instructions and project state files first. Follow BUILD_FROM_ZERO.md, determine the earliest incomplete phase, and begin there. Do not skip prerequisites or start implementation until the required preceding phases and exit criteria are satisfied. Keep PROJECT_STATE.md updated as we progress.
 
 The agent should:
 
